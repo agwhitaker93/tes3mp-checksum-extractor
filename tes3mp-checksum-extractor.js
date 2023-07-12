@@ -7,7 +7,7 @@ const pluginChecksumConstants = {
     'Bloodmoon.esm': ["0x43DD2132", "0x9EB62F26"]
 }
 
-const total = fs.readdirSync('.')
+fs.readdirSync('.')
     // filter to log files
     .filter(fileName => fileName.endsWith('.log'))
     // get file contents
